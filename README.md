@@ -1,5 +1,5 @@
 # 程序员小技巧
-#### 更新时间 2017/12/12
+#### 更新时间 2018/01/06
 ### 以下为个人学习编程时收集的一些命令，共同学习
 
 
@@ -86,3 +86,24 @@ class > id > name > data-* > src > for > type > href > title > alt > aria-* > ro
     * 选择正确的存储引擎(InnoDB[写/事务]和MyISAM[读])
 
 ### <a name="git"></a>Git
+* git init
+* git add .
+* git commit -m "some log"
+* git status
+* git log [--pretty=oneline|--graph]
+* git reset --hard HEAD^
+* git reflog
+* git checkout -- file
+* ssh-keygen -t rsa -C "email@163.com"
+* git push -u origin [<branch name>|<tagname>|--tags]
+* git checkout <name>
+* git branch [-b|-d|-D]
+* git stash [list|pop]
+* git remote [-v]
+* git tag [-a <name>|-m "log"|-d <tagname>]
+* git show <tagname>
+
+__遇见的问题__
+* 如何删除远程tag
+	* 本地删除: git tag -d <tagname>
+	* 然后推送: git push origin :refs/tags/<tagname>
