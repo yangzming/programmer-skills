@@ -1,5 +1,5 @@
 # 程序员小技巧
-#### 更新时间 2018/01/06
+#### 更新时间 2018/01/07
 ### 以下为个人学习编程时收集的一些命令，共同学习
 
 
@@ -102,8 +102,22 @@ class > id > name > data-* > src > for > type > href > title > alt > aria-* > ro
 * git remote [-v]
 * git tag [-a <name>|-m "log"|-d <tagname>]
 * git show <tagname>
+* git rm <file>
 
-__遇见的问题__
+_Git-questions_
 * 如何删除远程tag
-	* 本地删除: git tag -d <tagname>
-	* 然后推送: git push origin :refs/tags/<tagname>
+
+        git branch -r -d origin/branch-name
+        git push origin :branch-name
+        
+* 如何解决冲突
+
+        快速合并： git merge <branch-name>
+        手动解决冲突，找到<<<<<<<，=======，>>>>>>>，删除旧代码，再去提交
+
+* 如何管理git
+
+        远程分支，即服务端一般有两个，master(线上)和dev(开发)，开发者的分支在本地，开发者完成自己的功能后，提交到自己本地的分支，然后checkout到dev，与个人的分支进行合并
+        
+
+        
