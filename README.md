@@ -90,7 +90,7 @@ class > id > name > data-* > src > for > type > href > title > alt > aria-* > ro
 * git add .
 * git commit -m "some log"
 * git status
-* git log [--pretty=oneline|--graph]
+* git log [--pretty=oneline|--graph|--all]
 * git reset --hard HEAD^
 * git reflog
 * git checkout -- file
