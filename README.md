@@ -49,6 +49,12 @@
 class > id > name > data-* > src > for > type > href > title > alt > aria-* > role
 
 ### <a name="linux"></a>Linux
+* vim的一些简便操作
+    * ctrl + z 从vim转到shell
+    * jobs -l 查看在后台的任务
+    * fg [任务号] 将任务从后台执行转换到前台执行
+    * bg [任务号] 将任务放到后台继续执行
+
 
 ### <a name="technical_model"></a>技术模式
 * S.O.L.I.D
